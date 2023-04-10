@@ -15,3 +15,198 @@ iframe#frame-spec::-webkit-scrollbar {
 	display: none;
 	
 }
+@media only screen and (min-width:921px) and (max-width:1030px) {
+
+	header#cabecalho img#icone,
+	header#cabecalho,
+	header#cabecalho h1,
+	header#cabecalho h2,
+	nav#menu ul,
+	nav#menu img,
+	div#interface {
+
+		max-width:890px;
+		/*background-color: red;           cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+	header#cabecalho img#icone {
+		width: 170px;
+		left: 79%;
+	}
+
+	header#cabecalho {
+		width:100%;
+	background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px ;
+	}
+	header#cabecalho h1 {
+		width:100%;
+	}
+	header#cabecalho h2 {
+		width:100%;
+	}
+	nav#menu ul{
+		left: 40px;
+		width: 90%;
+		margin-top: 8px;
+	}
+	
+}
+	
+	@media only screen and (min-width:780px) and (max-width:921px) {
+
+	header#cabecalho img#icone,
+	header#cabecalho,
+	header#cabecalho h1,
+	header#cabecalho h2,
+	nav#menu ul,
+	section#corpo,
+	aside#lateral,
+	div#video1,
+	nav#menu img,
+	div#interface {
+
+		max-width:750px;
+		/*background-color: blue;           cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+	header#cabecalho img#icone {
+		width: 20%;
+		left: 580px;
+	}
+
+	header#cabecalho {
+		width:100%;
+		background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px ;
+	}
+	header#cabecalho h1 {
+		width:100%;
+
+	}
+	header#cabecalho h2 {
+		width:100%;
+	}
+	nav#menu ul{
+		width: 85%;
+		margin-top: 8px;
+	}
+	section#corpo{
+		width: 50%;
+
+
+	}
+	aside#lateral{
+		width: 45%;
+	}
+	div#video1{
+	left: 0px;
+	}
+	
+}
+
+	@media only screen and (max-width:783px) {
+
+	header#cabecalho img#icone,
+	header#cabecalho,
+	header#cabecalho h1,
+	header#cabecalho h2,
+	nav#menu,
+	section#corpo,
+	aside#lateral,
+	div#video1,
+	footer#rodape,
+	footer#rodape p,
+	nav#menu,
+	nav#menu ul,
+	nav#menu li,
+	div#interface {
+
+		max-width:414px;
+		height: auto;
+		/*background-color: yellow;             cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+	header#cabecalho img#icone {
+		width: 90px;
+		top: -80px;
+		left: 260px;
+	}
+
+	header#cabecalho {
+		width:300px;
+		top: 20px;
+		height: 110px;
+	}
+	header#cabecalho h1 {
+		width:80%;
+		top: 20px;
+	}
+	header#cabecalho h2 {
+		width:80%;
+		font-size: 15px;
+
+
+	}
+	nav#menu ul{
+		width:350px;
+		margin-top: 8px;
+	}
+	section#corpo{
+		width: 98%;
+
+
+	}
+	aside#lateral{
+
+		width: 98%;
+		margin-bottom: 10px;
+		padding: 8px;
+		float:left;
+	}
+	div#video1{
+		left: 0px;
+	}
+	div#video2{
+		left: 0px;
+	}
+	
+	footer#rodape p{
+		position: relative;
+		margin: auto;
+
+	}
+	
+	
+	nav#menu ul{
+	
+		
+		
+		width: 330px;
+		margin-top: 7px;
+		margin-left: -10px;
+		padding-left: -30px;
+		line-height: 25px;
+
+
+	}
+	nav#menu li{
+		
+		margin-top: 10px;
+		font-size: 10px;
+		padding: 2px;
+		
+		
+			
+	}
+	section#conteudo img{
+		width: 20%;
+		height: 100px;
+	}
+	iframe#frame-spec {
+	width: 20%;
+	height: 180px;
+
+}
+iframe#frame-spec::-webkit-scrollbar {
+	display: none;
+	
+}

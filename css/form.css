@@ -39,3 +39,122 @@ fieldset#mensagem{
 fieldset#pedido{
 	background: url("../imagens/icone-pagamento.png")no-repeat 95% 95%;
 }
+
+@media only screen and (min-width:921px) and (max-width:1030px) {
+
+	header#cabecalho img#icone,
+	header#cabecalho,
+	header#cabecalho h1,
+	header#cabecalho h2,
+	nav#menu ul,
+	nav#menu img,
+	div#interface {
+
+		max-width:890px;
+		/*background-color: red;           cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+	header#cabecalho img#icone {
+		width: 170px;
+		left: 79%;
+	}
+
+	header#cabecalho {
+		width:100%;
+	background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px ;
+	}
+	header#cabecalho h1 {
+		width:100%;
+	}
+	header#cabecalho h2 {
+		width:100%;
+	}
+	nav#menu ul{
+		left: 40px;
+		width: 90%;
+		margin-top: 8px;
+	}
+	
+}
+	
+	@media only screen and (min-width:780px) and (max-width:921px) {
+
+	header#cabecalho img#icone,
+	header#cabecalho,
+	header#cabecalho h1,
+	header#cabecalho h2,
+	nav#menu ul,
+	section#corpo,
+	aside#lateral,
+	div#video1,
+	nav#menu img,
+
+	div#interface {
+
+		max-width:750px;
+		/*background-color: blue;           cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+	header#cabecalho img#icone {
+		width: 20%;
+		left: 580px;
+	}
+
+	header#cabecalho {
+		width:100%;
+		background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px ;
+	}
+	header#cabecalho h1 {
+		width:100%;
+
+	}
+	header#cabecalho h2 {
+		width:100%;
+	}
+	nav#menu ul{
+		width: 85%;
+		margin-top: 8px;
+	}
+	section#corpo{
+		width: 50%;
+
+
+	}
+	aside#lateral{
+		width: 45%;
+	}
+	div#video1{
+	left: 0px;
+	}
+	
+}
+
+	@media only screen and (max-width:783px) {
+
+	
+	form,
+	fieldset,
+
+
+	form{
+	width: 421px;
+	margin: auto;
+}
+fieldset{
+	width: 50%
+	margin
+
+}
+fieldset#mensagem{
+	width: 90%;
+}
+fieldset#mensagem{
+	width: 30%;
+}
+div#interface {
+
+		max-width:421px;
+		/*background-color: blue;           cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+

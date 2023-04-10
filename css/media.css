@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 div#tv-radio {
+	display: none;
 	width: 900px;
 	height: 580px;
 	margin: auto;
@@ -8,16 +9,101 @@ div#tv-radio {
 	
 }
 audio#musica{
-	display: block;
+	display: none;
 	position: relative;
 	left:575px;
 	top: 490px;
 	width: 300px;
 }
 video#filme{
-	display: block;
+	display:block;
 	position:relative;
 	left: 100px;
 	top: 70px;
 	width: 450px;
+}
+
+@media only screen and (min-width:780px) and (max-width:921px) {
+
+	header#cabecalho img#icone,
+	header#cabecalho,
+	header#cabecalho h1,
+	header#cabecalho h2,
+	nav#menu ul,
+	section#corpo,
+	aside#lateral,
+	div#video1,
+	nav#menu img,
+
+	div#interface {
+
+		max-width:750px;
+		/*background-color: blue;           cor der fundo para melhor visualizar as modificacoes*/
+	}
+
+	header#cabecalho img#icone {
+		width: 20%;
+		left: 580px;
+	}
+
+	header#cabecalho {
+		width:100%;
+		background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 80px ;
+	}
+	header#cabecalho h1 {
+		width:100%;
+
+	}
+	header#cabecalho h2 {
+		width:100%;
+	}
+	nav#menu ul{
+		width: 85%;
+		margin-top: 8px;
+	}
+	section#corpo{
+		width: 50%;
+
+
+	}
+	aside#lateral{
+		width: 45%;
+	}
+	div#video1{
+	left: 0px;
+	}
+	
+}
+
+	@media only screen and (max-width:783px) {
+
+	div#tv-radio,
+	audio#musica,
+	video#filme,
+
+	div#tv-radio {
+
+	display: block;
+	width: 421px;
+	height: 330px;
+	margin-left: -10px;
+	background: url("../imagens/radio-tv-50.png") no-repeat;
+	
+}
+audio#musica{
+	display:block;
+	position: relative;
+	left:300px;
+	top: 246px;
+	width: 130px;
+	height: 25px;
+}
+video#filme{
+
+	display:block;
+	position:relative;
+	left: 50px;
+	top: 30px;
+	width: 220px;
+	height: 120px;
 }
