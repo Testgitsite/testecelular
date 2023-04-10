@@ -137,12 +137,16 @@ fieldset#pedido{
 
 
 	form{
-	width: 421px;
+	width: 415px;
 	margin: auto;
 }
+legend{
+	width:50%;
+}
+
 fieldset{
 	width: 50%
-	margin
+	margin:0;
 
 }
 fieldset#mensagem{
@@ -150,6 +154,11 @@ fieldset#mensagem{
 }
 fieldset#mensagem{
 	width: 30%;
+}
+
+ p {
+     text-align:left;
+     text-indent: 0px; 
 }
 div#interface {
 
