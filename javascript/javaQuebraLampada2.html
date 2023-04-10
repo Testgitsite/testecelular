@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Teste javascrip</title>							
+	<script>													//  video 24
+
+		var quebrada = false;									//variavel de estados
+
+
+		function mudaLampada(tipo){							//função para controlar o estado da lampada
+			if (tipo ==1) {
+				arquivo = "../imagens/Lampada-acesa.jpg";		//tipo 1 chama a função 1
+			}
+			if (tipo ==2) {
+				arquivo = "../imagens/Lampada-apagada.jpg";	//tipo 1 chama a função 2
+			}
+			if (tipo ==3) {
+				arquivo = "../imagens/lampada-quebrada.jpg";	//tipo 1 chama a função 3
+			}
+			if (!quebrada) {
+			document.getElementById("luz").src = arquivo;	//função que faz as trocas de imagen
+				if (tipo ==3) {								//e passa volar para variavel "quebrada"
+					quebrada = true;
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Acende Lampada</h1>
+	<!--inicia a lampada apagada e adiciona 3 funçoes com parametos
+		passar o mouse por cima
+		tirar o mouse de cima
+		clicar na lampada-->
+	<img src="../imagens/lampada-apagada.jpg" id="luz" 
+	onmousemove="mudaLampada(1)" 
+	onmouseout="mudaLampada(2)" 
+	onclick="mudaLampada(3)"/>
+
+</body>
+</html>
