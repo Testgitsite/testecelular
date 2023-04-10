@@ -251,6 +251,7 @@ footer#rodape p{
 
 	header#cabecalho {
 		width:100%;
+
 	}
 	header#cabecalho h1 {
 		width:100%;
@@ -340,20 +341,24 @@ footer#rodape p{
 
 	header#cabecalho img#icone {
 		width: 90px;
-		top: -110px;
-		left: 320px;
+		top: -80px;
+		left: 270px;
 	}
 
 	header#cabecalho {
-		width:100%;
+		width:80%;
 		top: 20px;
+
 	}
 	header#cabecalho h1 {
-		width:100%;
+		width:80%;
 		top: 20px;
 	}
 	header#cabecalho h2 {
-		width:100%;
+		width:80%;
+		font-size: 15px;
+
+
 	}
 	nav#menu ul{
 		width:350px;
